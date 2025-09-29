@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: #f8f9fa;
+        }
+        nav.navbar {
+            background-color: pink;
+        }
+        nav, nav img {
+            cursor: pointer;
+        }
+        header {
+            background-image: url('jpg/9ms-NYVRTC2vB55U890_CA.jpg');
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        header h1, header, h2 {
+            color: white;
+            font-weight: 900;
+            text-shadow: -1px -1px 0 black,
+                         1px -1px 0 black,
+                        -1px  1px 0 black,
+                         1px  1px 0 black;
+        }
+
+         span, h5{
+            color: white;
+            font-weight: 900;
+        }
+
+        .card-pink, footer {
+            background-color: pink;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand  navbar-dark">
+        <div class="container">
+            <img src="jpg/icon.png" style="height: 32px; width: 32px;" class="me-2">
+            <span class="navbar-brand">¡Bienvenido!</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a style="color: white; font-weight: 900" class="nav-link fw-bold " onclick="window.location.href='https://www.google.com'">Salir</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="jpg/casa.png" style="height: 32px; width: 32px;" onclick="window.location.href='https://www.google.com'">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-4" style="font-weight: 600;">Modelo de Logística para Libros en Desuso</h1>
+            <p class="lead fw-bold">Somos un Sistema de Aprovechamiento de Recursos Educativos a Través de la Reventa y Donación</p>
+            <button class="btn btn-lg btn-outline-dark fw-bold" style="background-color: pink; color: white;" onclick="window.location.href='https://www.instagram.com/filbacoficial/?hl=es'">Conoce Más</button>
+        </div>
+    </header>
+
+    <!-- Sobre Nosotros -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Sobre Nosotros</h2>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="card-pink">
+                        <img src="jpg/libro-abierto.png" class="mb-3" style="height: 64px;">
+                        <h5>VISIÓN</h5>
+                        <p style="color: white; font-weight: 600;">Convertirnos en el principal sistema de aprovechamiento de libros en nuestra región, promoviendo la reutilización y acceso equitativo al conocimiento.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-pink">
+                        <img src="jpg/perdida.png" class="mb-3" style="height: 64px;">
+                        <h5>FINALIDAD</h5>
+                        <p style="color: white; font-weight: 600;">Que ningún libro quede olvidado: buscamos fortalecer el hábito de lectura y darle una segunda vida a los recursos educativos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-pink">
+                        <img src="jpg/teneduria-de-libros.png" class="mb-3" style="height: 64px;">
+                        <h5>OBJETIVO</h5>
+                        <p style="color: white; font-weight: 600;">Fomentar la educación continua y la economía circular, asegurando que la reventa y la donación lleguen a quienes más lo necesitan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Nuestros Servicios</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <img src="jpg/recoleccion-por-lotes.png" class="me-3" style="height: 86px;">
+                        <div class="text-start">
+                            <h5 class="fw-bold" style="color: black;">RECOLECCIÓN DE LIBROS</h5>
+                            <p>Recibimos libros en desuso de estudiantes, organizaciones y familias. Los clasificamos y preparamos para darles una nueva vida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <img src="jpg/reventa.png" class="me-3" style="height: 86px;">
+                        <div class="text-start">
+                            <h5 class="fw-bold" style="color: black;">REVENTA ACCESIBLE</h5>
+                            <p>Vendemos libros a precios bajos para que más personas puedan acceder al conocimiento y mantener el ciclo de reutilización.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex">
+                        <img src="jpg/donacion-de-sangre.png" class="me-3" style="height: 86px;">
+                        <div class="text-start">
+                            <h5 class="fw-bold" style="color: black;">DONACIÓN SOLIDARIA</h5>
+                            <p>Entregamos libros a escuelas, bibliotecas y comunidades que los necesitan, evitando su desperdicio y apoyando la educación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" text-white text-center py-3">
+        <p>© 2024 Prototipo Modelo de Logística para Libros en Desuso | Institución Universitaria de Barranquilla</p>
+    </footer>
+</body>
+</html>
